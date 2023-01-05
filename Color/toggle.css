@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+main{
+    margin: 30px auto;
+    width: 800px;
+    height: 600px;
+    background-color: lightgrey;
+    transition: all .5s ease-in-out;
+
+}
+.fa {
+    font-size: 50px;
+    color: black;
+    cursor: pointer;
+    right: 0;
+    top: 0;
+
+}
+#side-nav{
+    display: none;
+}
+#toggle{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    
+}
+#grey{
+    background-color: grey;
+
+}
+#red{
+    background-color: red;
+
+}
+#green{
+    background-color: green;
+}
+#orange{
+    background-color: orange;
+}
+#purple{
+    background-color: purple;
+}
